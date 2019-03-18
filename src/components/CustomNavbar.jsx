@@ -6,12 +6,10 @@ export default class CustomNavbar extends Component {
   render() {
     return (
       <Navbar default collapseOnSelect>
-        <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Hold</Link>
           </Navbar.Brand>
           <Navbar.Toggle />
-        </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem eventKey={1} componentClass={Link} to="/">
